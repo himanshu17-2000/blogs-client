@@ -1,5 +1,6 @@
 import axios from "axios"
-const url = "http://localhost:8000"
+// const url = "http://localhost:8000"
+const url ="https://earthboxerserver.herokuapp.com"
 export const createPost = async (post) => {
     try {
         await axios.post(`${url}/create`, post)
